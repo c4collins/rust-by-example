@@ -7,7 +7,6 @@ publish = false
 repository = "https://github.com/c4collins/rust-by-example"
 readme = "README.md"
 license = "MIT"
-maintenance = {status = "actively-developed"}
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
