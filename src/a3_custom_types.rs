@@ -178,10 +178,12 @@ fn c_like_enums() {
 
     println!("Number::Zero is {}", Number::Zero as i32);
     println!("Number::One is {}", Number::One as i32);
+    println!("Number::Two is {}", Number::Two as i32);
 
+    // NOTE: Best programming poem yet
     println!("Roses are #{:06x}", Color::Red as i32);
     println!("Violets are #{:06x}", Color::Blue as i32);
-    println!("Color::Green is #{:06x}", Color::Green as i32);
+    println!("Color::Green is {}", Color::Green as i32);
 }
 
 fn linked_list() {
