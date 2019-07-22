@@ -4,7 +4,8 @@ mod helpers;
 // mod a3_custom_types;
 // mod a4_variable_bindings;
 // mod a5_types;
-mod a6_conversion;
+// mod a6_conversion;
+mod a7_expressions;
 
 fn main() {
     // a1_hello_world::run();
@@ -12,5 +13,6 @@ fn main() {
     // a3_custom_types::run();
     // a4_variable_bindings::run();
     // a5_types::run();
-    a6_conversion::run();
+    // a6_conversion::run();
+    a7_expressions::run();
 }
