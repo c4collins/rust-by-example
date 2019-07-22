@@ -7,6 +7,7 @@ publish = false
 repository = "https://github.com/c4collins/rust-by-example"
 readme = "README.md"
 license = "MIT"
+description = "Based on Rust by Example and my earlier similar projects for Python, I am writing out examples of Rust to help me learn it more thoroughly"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
