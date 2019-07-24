@@ -5,7 +5,8 @@ mod helpers;
 // mod a4_variable_bindings;
 // mod a5_types;
 // mod a6_conversion;
-mod a7_expressions;
+// mod a7_expressions;
+mod a8_flow_control;
 
 fn main() {
     // a1_hello_world::run();
@@ -14,5 +15,6 @@ fn main() {
     // a4_variable_bindings::run();
     // a5_types::run();
     // a6_conversion::run();
-    a7_expressions::run();
+    // a7_expressions::run();
+    a8_flow_control::run();
 }
