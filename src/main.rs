@@ -6,7 +6,8 @@ mod helpers;
 // mod a5_types;
 // mod a6_conversion;
 // mod a7_expressions;
-mod a8_flow_control;
+// mod a8_flow_control;
+mod a9_functions;
 
 fn main() {
     // a1_hello_world::run();
@@ -16,5 +17,6 @@ fn main() {
     // a5_types::run();
     // a6_conversion::run();
     // a7_expressions::run();
-    a8_flow_control::run();
+    // a8_flow_control::run();
+    a9_functions::run();
 }
