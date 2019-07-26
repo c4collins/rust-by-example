@@ -175,27 +175,21 @@ mod super_module {
     fn function() {
         println!("called `super_module::function()`");
     }
-    
     mod cool {
         pub fn function() {
             println!("called `super_module::cool::function()`");
         }
     }
-    
     pub fn indirect_call() {
         print!("called `super_module::indirect_call()`, that\n> ");
-        
         // The `self` keyword refers to the current module scope - in this case `super_module`.
         // Calling `self::function()` and calling `function()` directly both give
         self::function();
         function();
-        
         // We can also use `self` to access another module inside `super_module`:
         self::cool::function();
-        
         // The `super` keyword refers to the parent scope (outside the `super_module` module).
         super::super_function();
-        
         // This will bind to the `super_cool::function` in the *crate* scope.
         // In this case the crate scope is the outermost scope (at main.rs)
         {
@@ -210,15 +204,14 @@ fn super_and_self() {
     println!("The `super` and `self` keywords can be used in the path to remove ambiguity and prevent unnecessary hardcoding of paths");
 
     super_module::indirect_call();
-
 }
 
 use super::a10_modules_as_files as my_dir;
-fn file_hierarchy(){
+fn file_hierarchy() {
     helpers::section_subtitle(format!("File Hierarchy"));
     println!("Modules can be mapped to a file/dir structure");
 
-    fn function(){
+    fn function() {
         println!("Called function()");
     }
     my_dir::function();

@@ -8,8 +8,9 @@ mod helpers;
 // mod a7_expressions;
 // mod a8_flow_control;
 // mod a9_functions;
-mod a10_modules;
-mod a10_modules_as_files;
+// mod a10_modules;
+// mod a10_modules_as_files;
+mod a11_crates;
 
 fn main() {
     // a1_hello_world::run();
@@ -21,5 +22,6 @@ fn main() {
     // a7_expressions::run();
     // a8_flow_control::run();
     // a9_functions::run();
-    a10_modules::run();
+    // a10_modules::run();
+    a11_crates::run();
 }

@@ -13,3 +13,7 @@ description = "Based on Rust by Example and my earlier similar projects for Pyth
 
 [dependencies]
 typename = "0.1.1"
+
+[lib]
+name="rary"
+path="src/a11_crates_library.rs"
