@@ -11,9 +11,9 @@ description = "Based on Rust by Example and my earlier similar projects for Pyth
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[dependencies] # This is where you import compiled libraries
 typename = "0.1.1"
 
-[lib]
+[lib] # This is generating a library, and then it's used, not just importing it
 name="rary"
 path="src/a11_crates_library.rs"
